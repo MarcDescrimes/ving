@@ -1,19 +1,18 @@
 Authors' notes and preface
-------------------------
+--------------------------
 The script in this package was designed by Marc Descrimes.
 The current implementation was written by Marc Descrimes and Yousra Ben Zouari.
 
 Software: Ving
-Title: Representation and manipulation of RNA seq data.
-Description: A tool for efficient visualization and analysis
-	of high-throughput sequencing data (a.k.a. NGS data). 
+Title: Representation and manipulation of of high-throughput sequencing (a.k.a. NGS) data.
+Description: A tool for efficient visualization and analysis of NGS data.
 
 Version: beta 1.1
 
 
 Prerequisites
 -------------
-The script runs with R(>= 3.0.2). 
+The script runs with R (>= 3.0.2). 
 R packages GenomicRanges and Rsamtools should be installed.
     http://bioconductor.org/packages/release/bioc/html/Rsamtools.html
     http://bioconductor.org/packages/release/bioc/html/GenomicRanges.html
@@ -28,8 +27,8 @@ file name given by samtools.
 Samtools are in the repositories of many distros. Go here for the freshest version:
     http://samtools.sourceforge.net/
 
-You should now be able to start using real data!
-Example data available at:
+You should now be able to start using real data! 
+Test files are available at :
     http://vm-gb.curie.fr/ving/
 
 
@@ -81,7 +80,7 @@ Options
     By default, ving deduces the file type from the suffix of the file name set with -o
     The following file types are supported: png, jpeg, bmp, tiff, pdf.
     If another file type is specified, ving outputs a png file.
-    Note: Heatmap visualizations look better in png and tiff.
+    Note: Heatmap visualizations appear to be better in png and tiff.
 
 -R/--resolution <integer>
     Sets the resolution of the output, in dot per inch. Default is 72.
