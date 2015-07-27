@@ -26,10 +26,11 @@ Samtools should be up and running in order to create bam file indexes.
 Index files must be in the same directory as bam files, with the default 
 file name given by samtools.
 Samtools are in the repositories of many distros. Go here for the freshest version:
-    
     http://samtools.sourceforge.net/
 
-You should now be able to start using real data! 
+You should now be able to start using real data!
+Example data available at:
+    http://vm-gb.curie.fr/ving/
 
 
 How to use the Ving.R script
